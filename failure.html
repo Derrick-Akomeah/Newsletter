@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		/>
+		<title>Failure</title>
+	</head>
+	<body>
+		<div class="jumbotron jumbotron-fluid mt-5 pt-5">
+			<div class="container">
+				<img src="images/mirage-bad-gateway.png" alt="" />
+				<hr class="my-4" />
+				<p class="lead">
+					<strong>Uh oh! </strong> There was a problem signing you up. Please
+					try again or contact the developer!
+				</p>
+
+				<form action="/failure" method="POST">
+					<button
+						type="submit"
+						class="btn text-white btn-block btn-warning"
+						value="submit"
+					>
+						Try Again
+					</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
